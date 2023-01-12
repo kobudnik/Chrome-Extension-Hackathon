@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react",
-  "version": "4.4.0",
-  "description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
+  "name": "Take It And Leave It",
+  "version": "1.0.0",
+  "description": "For things not worth favoriting but not to be forgotten.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": "https://github.com/kobudnik/Take-It-And-Leave-It.git"
   },
   "scripts": {
     "build": "node utils/build.js",
