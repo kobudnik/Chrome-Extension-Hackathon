@@ -1,4 +1,3 @@
-
 {
   "name": "Take It And Leave It",
   "version": "1.0.0",
@@ -10,10 +9,17 @@
       "css": ["./pages/Content/content.styles.css"]
     }
   ],
-  "devtools_page": "devtools.html",
+  "action": {
+    "default_title": "Take It Or Leave It",
+    "default_popup": "./pages/Popup/index.html"
+  },
   "web_accessible_resources": [
     {
-      "resources": ["./pages/Content/content.styles.css", "icon-128.png", "icon-34.png"],
+      "resources": [
+        "./pages/Content/content.styles.css",
+        "icon-128.png",
+        "icon-34.png"
+      ],
       "matches": ["http://*/*", "https://*/*", "<all_urls>"]
     }
   ]
